@@ -59,14 +59,10 @@ namespace ConsoleApp7
 			string birthYearStr = Convert.ToString(birthYear);//'2000'
 			double birthYearDb = Convert.ToDouble(birthYear);//'2000'
 			char birhtYearChar = Convert.ToChar(birthYear);//"?'
-			char birhtYearChar2 = Convert.ToChar(birthYearStr);//"?'
-														   //первый вариант
-														   //char birhtYearChar = Convert.ToChar(birthYear);//"?'
-														   //второй вариант
-														   //string birthYearStr = (Convert.ToChar(Convert.ToInt16(birthYear))).ToString();
-														   //int birthYearInt = Convert.ToInt16(birthYearStr);
-			Console.WriteLine(birhtYearChar2);
+			
 			int hasPhotoInt = 1;//to boolean
-        }
+			bool hasPhotoStr = Convert.ToBoolean(hasPhotoInt);//"False"
+			
+		}
     }
 }
